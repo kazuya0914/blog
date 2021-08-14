@@ -41,12 +41,18 @@
   在新窗口打开页面
 - _top  
   当前链接所有 iframe 标签最上面的窗口打开
-- parent  
+- _parent  
   当前链接所在 iframe 的上一层打开
-- self  
+- _self  
   默认值，在当前窗口打开页面
 - window.name  
-  比如 `target=x`，则会新建一个 window.name 为 x 的窗口打开
+  比如 `target=x`，如果当前没有 window.name 为 x 的窗口，则会新建一个 window.name ="x" 的窗口打开链接；如果已经有了 x 窗口，则会在 x 窗口覆盖此前页面来展示链接内容。
+    - 作用为利用重复的窗口来打开页面中的多个有相同 window.name 的`<a>`。
+
+  ```html
+  <a href="//google.com" target="x">google</a>
+  <a href="//baidu.com" target="x">百度</a>
+  ```
 
 # `<table>`
 

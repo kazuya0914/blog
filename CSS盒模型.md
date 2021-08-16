@@ -7,7 +7,7 @@
     - Border box: 边框盒包裹内容和内边距，大小通过 border 相关属性设置。
     - Margin box: 这是最外面的区域，是盒子和其他元素之间的空白区域，大小通过 margin 相关属性设置。
 
-![盒模型](images/box-model.png)
+  ![盒模型](images/box-model.png)
 
 # 哪一种盒模型
 
@@ -27,6 +27,7 @@
     }
   ```
   元素实际宽度为350 + 25 + 25 + 5 + 5 = 410px
+
   ![content-box](images/content-box.png)
 
     - `border-box`  

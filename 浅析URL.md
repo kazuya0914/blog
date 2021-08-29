@@ -39,7 +39,7 @@ IP 全称 Internet Protocol，译为网际协议。IP地址是分配给连接到
 - 顶级域名（Top-Level Domain）：顶级域名可以告诉用户域名所提供的服务类型。最通用的顶级域名（.com, .org, .net）。
 - 二级域名（Secondary Level Domain）：通常情况下，人们基于公司、产品或服务的名称来创建二级域名或更低级别的域名，以方便其他人识别和记忆。
 
-综上不难看出，`www.baidu.com`相较于`baidu.com`，`www`是多余的，因为`www.baidu.com`是三级域名。同时域名又是可以交易的，虽然大部分多键入了`www`
+综上不难看出，`www.baidu.com`相较于`baidu.com`，`www`是多余的，因为`www.baidu.com`是三级域名。同时域名又是可以交易的，虽然大部分键入了`www`
 的网址与你想访问的实际网址是相同的，但是仍不排除有少部分不同，所以在浏览器中键入网址时，尽量省略`www`。
 
 ### `ping`命令

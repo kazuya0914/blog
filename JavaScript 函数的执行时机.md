@@ -71,10 +71,13 @@ function fn(i) {
   if (i < 6) {
     setTimeout(() => {
       console.log(i);
-      fn(++i)
+      i = i + 1
+      fn(i)
     }, 0)
   }
 }
+
+fn(0)
 ```
 
 即`fn(0)`调用`f(1)`，`f(1)`调用`f(2)`，直到`f(5)`调用`f(6)`，形成了互相嵌套的函数，也是一种闭包。

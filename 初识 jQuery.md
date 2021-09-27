@@ -164,3 +164,8 @@ Demonstration Box list item 1 list item 2
 ```js
 let userName = $('input[name="user"]').val()//获取输入框内容
 ```
+
+# 参考链接
+
+- [jQuery设计思想](http://www.ruanyifeng.com/blog/2011/07/jquery_fundamentals.html) ，by 阮一峰
+- [jQuery API 中文文档](https://www.jquery123.com/)

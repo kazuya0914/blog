@@ -34,7 +34,7 @@ btn.onclick = bgChange //按钮被点击时，执行bgChange函数改变背景�
 
 `addEventListener()`的工作原理是将实现`EventListener`的函数或对象添加到调用它的`EventTarget`上的指定事件类型的事件侦听器列表中。
 
-- 用`addEventListener()`改写之间的点击事件代码：
+- 用`addEventListener()`改写之前的点击事件代码：
 
 ```js
 const btn = document.querySelector('button');

@@ -150,3 +150,7 @@ document.getElementById("parent-list").addEventListener("click", function (e) {
   }
 });
 ```
+
+# 参考链接
+
+- [事件介绍](https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Building_blocks/Events)
